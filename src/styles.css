@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.input-container{
+  margin-bottom: 50px; 
+ 
+}
+.product-list {
+  display: flex;
+  flex-direction: column; 
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between; /* Ürün ismi, fiyat ve buton arasında boşluk bırakır */
+  align-items: center; 
+  margin-bottom: 10px; 
+}
+
+.product-name {
+  flex: 0; /* Ürün isminin mevcut boşluğun çoğunu kaplamasını sağlar */
+}
+
+.product-price {
+  margin: 0 10px; /* Fiyat ile buton arasında boşluk bırakır */
+  
+}
